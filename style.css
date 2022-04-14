@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 70px auto;
+    width: 90%;
+    max-width: 1400px;
+}
+
+header {
+    margin: 0 auto;
+    
+}
+
+.intro-title h1{
+    font-family:'PT Serif', serif;
+    font-size: 36px;
+}
+
+
+.intro-detail {
+    padding-top:45px;
+    width: 440px;
+}
+
+.intro-detail h3 {
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.intro-detail p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    
+}
+
+/* ==================== Main ================= */
+
+.team {
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+}
+
+
+.member {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.member-role {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    position: relative;
+    transform: rotate(90deg);
+    left:58%;
+    top: 33%;
+}
+
+.member-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.member-picture img  {
+    max-height: 450px;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .member:nth-child(2n+2) {
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1240px;  
+    }
+
+    .intro-detail {
+        padding-top: 18px;  
+    }
+
+    .intro-detail p {
+        font-size: 18px;
+    }
+    .team{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .member:nth-child(3n+2) {
+        margin-top: 6rem;
+    }
+
+    .member-name {
+        font-size: 18px;
+        line-height: 27px;
+    }
+ }
+ 
+
+ @media (min-width: 1024px)  {
+    .team{
+    column-gap:0.1rem; 
+    }
+  }
+
+/* =================== Footer =============*/
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-bottom: -50px;
+    }
+
+a {
+    text-decoration: none;
+    color: rgba(54, 52, 52, 0.595);
+}
