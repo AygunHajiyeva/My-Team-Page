@@ -1,12 +1,31 @@
-# My-Team-Page
+<h1 align="center">{My Team Page}</h1>
 
-View webpage https://snazzy-pony-3c7d00.netlify.app
- 
-A challenge from https://devchallenges.io/
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-Built with HTML and CSS.
+<div align="center">
+  <h3>
+    <a href="myteampagedev.netlify.app">
+      >>> Demo <<<
+    </a>
+  </h3>
+</div>
 
-Figma File https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=0%3A1
 
 
-![2022-04-14 (2)](https://user-images.githubusercontent.com/99952793/163397884-7e2f7abf-dfbe-4d24-a0a4-983d9de956e2.png)
+## Overview
+![2022-05-06 (2)](https://user-images.githubusercontent.com/99952793/167136098-5316e28e-bbc0-4f9f-9171-7debe7cecbbb.png)
+
+### Built With
+  <ul>
+      <li>HTML5</li> 
+      <li>CSS3</li> 
+   </ul>
+
+
+## Contact
+
+- GitHub [@AygunHajiyeva](https://{https://github.com/AygunHajiyeva})
+
+
